@@ -55,14 +55,26 @@
                 <div id="patient-nlf-1" role="tabpanel" class="bs-stepper-pane fade"
                     aria-labelledby="patientsteppertrigger1">
                     <div class="row">
-                        <div class="form-group col-md-12" style="text-align: center;">
+                        <div class="form-group col-md-12" style="text-align: center;margin-left: 15px;">
                             <h4><Strong>Pemeriksaan Untuk Siapa?</Strong></h4>
                         </div>
-                        <div class="form-group col-md-6" style="text-align: right;">
-                            <a href="#"><img src="/images/self.png" onclick="setpatient('self')"></a>
+                        <div class="form-group col-md-6" style="text-align: center;padding-right:60px">
+                            <a href="#" onclick="setpatient('self')">
+                                <div style="float: right">
+                                    <img src="/images/self.png">
+                                    <br>
+                                    <label>Sendiri</label>
+                                </div>
+                            </a>
                         </div>
-                        <div class="form-group col-md-6" style="text-align: left;">
-                            <a href="#"><img src="/images/someone.png" onclick="setpatient('someone')"></a>
+                        <div class="form-group col-md-6" style="text-align: center;padding-left:60px">
+                            <a href="#" onclick="setpatient('someone')">
+                                <div style="float: left">
+                                    <img src="/images/someone.png">
+                                    <br>
+                                    <label>Orang Lain</label>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <hr>
@@ -77,14 +89,26 @@
                 <div id="patient-nlf-2" role="tabpanel" class="bs-stepper-pane fade"
                     aria-labelledby="patientsteppertrigger2">
                     <div class="row">
-                        <div class="form-group col-md-12" style="text-align: center;">
+                        <div class="form-group col-md-12" style="text-align: center;margin-left: 15px;">
                             <h4><Strong>Jenis Kelamin ?</Strong></h4>
                         </div>
-                        <div class="form-group col-md-6" style="text-align: right;">
-                            <a href="#"><img src="/images/female.png" onclick="setgender('female')"></a>
+                        <div class="form-group col-md-6" style="text-align: center;padding-right:60px">
+                            <a href="#" onclick="setgender('male')">
+                                <div style="float: right">
+                                    <img src="/images/male.png">
+                                    <br>
+                                    <label>Laki-Laki</label>
+                                </div>
+                            </a>
                         </div>
-                        <div class="form-group col-md-6" style="text-align: left;">
-                            <a href="#"><img src="/images/male.png" onclick="setgender('male')"></a>
+                        <div class="form-group col-md-6" style="text-align: center;padding-left:60px">
+                            <a href="#" onclick="setgender('female')">
+                                <div style="float: left">
+                                    <img src="/images/female.png">
+                                    <br>
+                                    <label>Perempuan</label>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <hr>
