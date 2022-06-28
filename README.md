@@ -1,4 +1,4 @@
-# eClinic BackOffice
+# Klinisia - Import Tools
 
 
 
@@ -13,20 +13,6 @@ cp env.example .env
 composer install [enter]
 ```
 
-## Migration
-
-Create database first with name `symptomate` and then :
-
-```
-
-# migrate DB
- php artisan migrate [enter]
-
-# create dummy data 
- php artisan migrate:fresh --seed [enter]
-
-
-```
 
 ## Run Application
 
